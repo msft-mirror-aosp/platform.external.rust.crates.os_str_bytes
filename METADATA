@@ -1,0 +1,13 @@
+name: "os_str_bytes"
+description:
+    "This crate allows interacting with the data stored by OsStr and OsString, without resorting to panics or corruption for invalid UTF-8. Thus, methods can be used that are already defined on [u8] and Vec<u8>."
+
+third_party {
+  url {
+    type: GIT
+    value: "https://github.com/dylni/os_str_bytes"
+  }
+  version: "6.1.0"
+  last_upgrade_date { year: 2022 month: 6 day: 29 }
+  license_type: NOTICE
+}
